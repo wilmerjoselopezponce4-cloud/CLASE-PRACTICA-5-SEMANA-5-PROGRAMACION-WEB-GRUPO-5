@@ -1,0 +1,34 @@
+NEXOTASK - GRUPO 5
+CUENTAS DE INICIO DE SESIÓN
+
+1. Jorge Toapanta
+   Correo: jorge@grupo5.test
+   Rol: Administrador
+
+2. Wilmer Adriano
+   Correo: wilmer.adriano@grupo5.test
+   Rol: Gerente de proyecto
+
+3. Jhoely Dávila
+   Correo: jhoely@grupo5.test
+   Rol: Miembro del equipo
+
+4. Jhonatan Chávez
+   Correo: jhonatan@grupo5.test
+   Rol: Miembro del equipo
+
+5. Wilmer López
+   Correo: wilmer.lopez@grupo5.test
+   Rol: Miembro del equipo
+
+CONTRASEÑA PARA TODAS: 12345678910
+
+CONTRASEÑA INICIAL
+La contraseña se establece durante la instalación del sistema en:
+http://localhost/pwapractica5/install.php
+
+La contraseña inicial es la misma para las cinco cuentas y debe tener entre 10 y 72 caracteres.
+Después, cada integrante puede cambiarla desde su perfil.
+
+ACCESO AL SISTEMA
+http://localhost/pwapractica5/

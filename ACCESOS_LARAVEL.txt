@@ -1,0 +1,37 @@
+NEXOTASK - CLASE PRÁCTICA 5
+GRUPO 5 · CUENTAS DE PRUEBA
+
+1. Jorge Toapanta
+   Correo: jorge@grupo5.test
+   Rol: Administrador
+
+2. Wilmer Adriano
+   Correo: wilmer.adriano@grupo5.test
+   Rol: Gerente de proyecto
+
+3. Jhoely Dávila
+   Correo: jhoely@grupo5.test
+   Rol: Miembro del equipo
+
+4. Jhonatan Chávez
+   Correo: jhonatan@grupo5.test
+   Rol: Miembro del equipo
+
+5. Wilmer López
+   Correo: wilmer.lopez@grupo5.test
+   Rol: Miembro del equipo
+
+CONTRASEÑA DE PRUEBA PARA LAS CINCO CUENTAS
+12345678910
+
+ACCESO DESPUÉS DE INSTALAR CON COMPOSER
+http://127.0.0.1:8000/login
+
+BASE DE DATOS MYSQL
+grupo5_nexotask
+
+IMPORTANTE
+Las cuentas se crean con «php artisan migrate --seed».
+No abras install.php, la inicialización de Laravel se hace con
+migraciones y seeders desde la consola.
+La contraseña compartida se utiliza solamente para pruebas locales.
