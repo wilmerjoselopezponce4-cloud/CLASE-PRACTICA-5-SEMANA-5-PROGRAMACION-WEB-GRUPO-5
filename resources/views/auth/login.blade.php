@@ -1,0 +1,12 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Iniciar sesión · NexoTask</title>
+<link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}"><link rel="stylesheet" href="{{ asset('vendor/bootstrap.min.css') }}"><link rel="stylesheet" href="{{ asset('base.css') }}"><link rel="stylesheet" href="{{ asset('fresh.css') }}"></head>
+<body class="login-body"><div class="login-shell"><section class="login-showcase"><div class="login-shape shape-one"></div><div class="login-shape shape-two"></div><a class="brand login-brand" href="{{ route('login') }}"><span class="brand-mark">N</span><span class="brand-text">Nexo<span class="brand-accent">Task</span></span></a>
+<div class="showcase-content"><span class="showcase-pill">✦ EQUIPO 05</span><h1>Gestiona tu trabajo<br><em>con claridad.</em></h1><p>Organiza proyectos, distribuye responsabilidades y consulta el avance de tu equipo desde un solo espacio.</p>
+<div class="showcase-preview"><div class="preview-header"><div class="preview-icon">▤</div><div><strong>Panel de seguimiento</strong><small>Proyectos y tareas</small></div></div><div class="preview-stats"><span>Proyectos</span><span>Asignaciones</span><span>Avances</span></div></div></div><div class="login-showcase-footer">Programación Web Avanzada · Grupo 5</div></section>
+<section class="login-panel"><div class="login-form-wrap"><div class="login-small-brand"><span class="brand-mark">N</span><strong>NexoTask</strong></div><div class="login-eyebrow">ACCESO AL SISTEMA</div><h2>Inicia sesión</h2><p>Ingresa con tu correo del equipo y contraseña.</p>
+@if($errors->any())<div class="toast-flash error">{{ $errors->first() }}</div>@endif
+<form method="post" action="{{ route('login.submit') }}" class="login-form">@csrf
+ <div class="field"><label>Correo electrónico</label><input class="input-control" type="email" name="email" value="{{ old('email') }}" required placeholder="nombre@grupo5.test" autofocus></div>
+ <div class="field"><label>Contraseña</label><input class="input-control" type="password" name="password" required placeholder="Tu contraseña"></div>
+ <button class="btn-primary-custom full-width" type="submit">Entrar al panel <span>→</span></button>
+</form><div class="login-role-note">♢ Acceso protegido según el rol asignado a cada usuario.</div><div class="login-bottom">NexoTask · Grupo 05</div></div></section></div></body></html>
